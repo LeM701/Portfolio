@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Mehdi Rtaili</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section animate__animated animate__fadeIn">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeInDown">Hi, I'm <span class="highlight">Mehdi Rtaili</span>
+                </h1>
+                <p class="animate__animated animate__fadeInUp animate__delay-10s">Full-Stack Web Developer</p>
+                <a href="#portfolio" class="btn animate__animated animate__zoomIn animate__delay-2s">View My
+                    Projects</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="assets/images/" alt="Profile picture"
+                            class="img-fluid animate__animated animate__zoomIn">
+                    </div>
+                    <div class="about-text">
+                        <p>Web & Mobile Developer graduate (ADRAR, 2025), currently pursuing a MSc Pro in Artificial
+                            Intelligence at <strong>Epitech</strong> (2025–2028).<br>
+                            I’m looking for a work-study opportunity from <strong>January 5, 2026 to September 8,
+                                2028</strong> with a <strong>4 weeks in company / 2 weeks at school</strong> schedule,
+                            to combine development and AI in building innovative solutions.</p>
+                        <a href="assets/documents/Mehdi_RTAILI_CV.pdf" download class="btn btn-secondary">Download My CV
+                            <i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+
+                    <div class="skill-item animate__animated animate__fadeInUp">
+                        <i class="fab fa-python fa-3x"></i>
+                        <h3>Python</h3>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp animate__delay-0-2s">
+                        <i class="fab fa-php fa-3x"></i>
+                        <h3>PHP</h3>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp animate__delay-0-4s">
+                        <i class="fab fa-js-square fa-3x"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp animate__delay-0-6s">
+                        <i class="fab fa-react fa-3x"></i>
+                        <h3>React</h3>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp animate__delay-0-8s">
+                        <i class="fab fa-node-js fa-3x"></i>
+                        <h3>Node.js</h3>
+                    </div>
+
+                    <div class="skill-item animate__animated animate__fadeInUp animate__delay-0-9s">
+                        <i class="fas fa-database fa-3x"></i>
+                        <h3>SQL</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <h3>WeatherApp</h3>
+                                <p>
+                                    A modern weather forecasting web app that provides real-time data using the
+                                    OpenWeather API.
+                                    It displays current conditions, 5-day forecasts, and interactive icons — all with a
+                                    clean and responsive design.
+                                    <br><strong>Technologies:</strong> HTML5, CSS3, JavaScript and OpenWeather API.
+                                </p>
+                                <div class="project-links">
+                                    <a href="https://github.com/LeM701/WeatherApp" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-small">
+                                        GitHub <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <h3>SuperGame</h3>
+                                <p>
+                                    A fun and interactive browser game that lets users add players and display their
+                                    scores on a ranked leaderboard.
+                                    The project focuses on input validation, security (CSRF protection) and a responsive
+                                    UI.
+                                    <br><strong>Technologies:</strong> PHP, MySQL, HTML5, CSS3 and JavaScript.
+                                </p>
+                                <div class="project-links">
+                                    <a href="https://github.com/LeM701/SuperGame" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-small">
+                                        GitHub <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project-card">
+                                <h3>Todo-List_NoSQL</h3>
+                                <p>
+                                    A fun and interactive browser game that lets users add players and display their
+                                    scores on a ranked leaderboard.
+                                    The project focuses on input validation, security (CSRF protection) and a responsive
+                                    UI.
+                                    <br><strong>Technologies:</strong> HTML5, CSS3, JavaScript and Firebase.
+                                </p>
+                                <div class="project-links">
+                                    <a href="https://github.com/LeM701/Todo-List_NoSQL.git" target="_blank"
+                                        rel="noopener noreferrer" class="btn btn-small">
+                                        GitHub <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-intro">Feel free to reach out for opportunities, collaborations, or questions.</p>
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/xqayvvpl" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" minlength="10" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/LeM701" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github fa-2x"></i></a>
+                    <a href="mailto:mehdi.rtaili@outlook.com" aria-label="Email"><i
+                            class="fas fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2025 Mehdi Rtaili. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
