@@ -1,4 +1,4 @@
-echo "# 🌐 Mehdi Rtaili — Portfolio
+# 🌐 Mehdi Rtaili — Portfolio
 
 Welcome to my personal portfolio.  
 This project showcases my background, technical skills, and selected projects, serving as a professional presentation of my work as a **Full-Stack Developer** with a strong interest in Artificial Intelligence.
