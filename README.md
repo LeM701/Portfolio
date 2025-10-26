@@ -145,6 +145,15 @@ Each library was chosen for its **lightweight performance**, **ease of customiza
 
 ## 🌐 Deployment
 
+### 🔒 Visibility Notice
+
+This portfolio is intentionally set to **private visibility** for development and evaluation purposes.  
+Meta tags (`noindex, nofollow`) and a `robots.txt` file (`Disallow: /`) have been added to prevent search engines from indexing or crawling the website.  
+
+The site remains **accessible via direct link**,  
+but it is **not publicly listed** on Google or other search engines.
+
+
 This portfolio is deployed on:
 - **GitHub Pages**
 
